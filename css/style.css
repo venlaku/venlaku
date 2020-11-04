@@ -1,5 +1,5 @@
-body {color: black;
-        background-color: rgb(158,158,156);
+body {color: rgb(0, 0, 0);
+        background-color:  rgb(150, 150, 250);
     }
 h1 {
     border: 4px outset;
@@ -28,5 +28,5 @@ a {
     float: left;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
+    text-decoration: underline;
 }
