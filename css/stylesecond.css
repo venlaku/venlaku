@@ -28,7 +28,7 @@ p {
     text-align: center;
 }
 img {
-    border-radius: 10px;
-    text-align: center;
+    border-radius: 50px;
+    align-self: center;
     width: 200px;
 }
