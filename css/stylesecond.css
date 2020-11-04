@@ -1,7 +1,7 @@
 body {
     color: rgb(255,255,255);
     background-color: rgb(102, 102, 153);
-    background-image: url("images/tausta.png");
+    background-image: "images/tausta.png";
     background-repeat: repeat-y;
     }
 h1 {
@@ -30,12 +30,13 @@ p {
     padding: 5px;
     background-color: rgb(150, 150, 250); 
     text-align: center;
+    margin: 300px;
 }
 img {
     border-radius: 50px;
-    align-items: center;
+    padding: center;
     width: 200px;
 }
 figure {
-    align-items: center;
+    padding: center;
 }
