@@ -2,14 +2,15 @@ body {
     color: rgb(255,255,255);
     background-color: rgb(102, 102, 153);
     background-image: url("https://github.com/venlaku/venlaku.github.io/blob/main/images/tausta.png?raw=true");
-    background-repeat: repeat-y;
+    background-repeat: repeat-y ;
+    background-blend-mode: screen;
     }
 h1 {
     border: 4px outset;
     border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 200px;
     margin-right: 30px;
     padding: 20px;
     font-size: 30px;
@@ -20,7 +21,7 @@ h2 {
     font-size:20px;
     border-bottom: 2px double;
     padding: 10px 20px 10px 20px;
-    margin: 50px;
+    margin: 200px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -30,17 +31,18 @@ p {
     border-radius: 20px;
     border: 1px solid rgb(6,6,21);
     padding: 5px;
+    margin: 200px;
     background-color: rgb(150, 150, 250); 
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
 }
 .center {
-    padding-left: 40%;
+    padding-left: 50%;
     border-radius: 50px;
     width: 200px;
+  }
+figcaption{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+}
