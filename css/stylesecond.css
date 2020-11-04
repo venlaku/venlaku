@@ -31,6 +31,9 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
     font-weight: bold;
+    background-color: rgb(6,6,21);
+    border: rgb(6,6,21);
+    padding: 10px;
 }
 p {
     color: rgb(6,6,21);
