@@ -1,5 +1,5 @@
-body {color: white;
-        background-color: black;
+body {color: black;
+        background-color: rgb(158,158,156);
     }
 h1 {
     border: 4px outset;
@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 p {
-    color: rgb(100,100,100);
+    color: rgb(50,50,50);
     font-size: 14px;
     border-radius: 20px;
     border: 1px solid rgb(6,6,21);
