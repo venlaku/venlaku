@@ -35,7 +35,7 @@ p {
 }
 .center {
     padding-left: 50%;
-    padding-right: 50%;
     border-radius: 50px;
     width: 200px;
+    text-align: center;
   }
