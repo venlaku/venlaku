@@ -6,7 +6,7 @@ body {
     background-blend-mode: overlay;
     }
 h1 {
-    border: 4px outset;
+    border: 4px outset rgb(255,255,255);
     border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -19,7 +19,7 @@ h1 {
 }
 h2 {
     font-size:20px;
-    border-bottom: 2px double;
+    border-bottom: 2px double rgb(255,255,255);
     padding: 10px 20px 10px 20px;
     margin-left: 300px;
     text-align: center;
