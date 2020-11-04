@@ -24,3 +24,9 @@ p {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+a {
+    float: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
