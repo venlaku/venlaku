@@ -30,6 +30,7 @@ a {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
+    font-weight: bold;
 }
 p {
     color: rgb(6,6,21);
@@ -49,3 +50,4 @@ p {
     width: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
