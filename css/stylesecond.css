@@ -13,6 +13,7 @@ h1 {
     margin-right: 30px;
     padding: 20px;
     font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 h2 {
@@ -21,6 +22,7 @@ h2 {
     padding: 10px 20px 10px 20px;
     margin: 50px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p {
     color: rgb(6,6,21);
@@ -32,10 +34,13 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
 }
 .center {
     padding-left: 50%;
     border-radius: 50px;
     width: 200px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
