@@ -1,6 +1,8 @@
 body {
     color: rgb(255,255,255);
-    background-color: rgb(102, 102, 153)
+    background-color: rgb(102, 102, 153);
+    background-image: url("images/tausta.png");
+    background-repeat: repeat-y;
     }
 h1 {
     border: 4px outset;
@@ -31,6 +33,9 @@ p {
 }
 img {
     border-radius: 50px;
-    align-self: center;
+    align-items: center;
     width: 200px;
+}
+figure {
+    align-items: center;
 }
