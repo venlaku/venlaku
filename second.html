@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
@@ -14,11 +14,16 @@
 
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg">
-<a class="navbar-default" href="Index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
+<nav class="navbar sticky-top navbar-expand-lg">
+<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarToggler">
+
+<a class="navbar-default" href="index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     <li class="nav-item">
-    <a class="nav-link" href="Index.html">Etusivu </a>
+    <a class="nav-link" href="index.html">Etusivu </a>
     </li>
     <li class="nav-item active">
     <a class="nav-link active" href="second.html">Huonekasvit</a>
@@ -27,79 +32,103 @@
     <a class="nav-link " href="third.html">Huonekasvien hoidosta</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="fourth.html">Opi lisää: Under construction</a>
+    <a class="nav-link" href="fourth.html">Opi lisää</a>
     </li>
 </ul>
+<form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn search my-2 my-sm-0" type="submit">Etsi</button>
+  </form>
 </nav>
-
-<hr class ="viiva1">
-    
-    <div class="container-fluid">
-        <img src="images/Headerpicture.jpg" alt="Etusivun otsikkokuva" class="headerpicture">
-</div>
-
-<div class="container-fluid row">
-    <div class ="mt-2 text col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        <img src="images/textpicture1.jpg" alt="Huonekasvi ruukussa" class="textpicture1">
-    </div>
-    <div class ="mt-3 pr-2 textMiddle col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        <p>Lorem ipsum dolor sit amet, 
-            consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-            commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-            <p>Lorem ipsum dolor sit amet, 
-            consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-            commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-            <p>Lorem ipsum dolor sit amet, 
-            <p>consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-            commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-    </div>
-    <div class ="mt-3 text col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        <p>Lorem ipsum dolor sit amet, 
-            consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-            commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-            <p>Lorem ipsum dolor sit amet, 
-            consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-            commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-            <p>Lorem ipsum dolor sit amet, 
-            <p>consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-            commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-    </div>
-    <div class ="mt-3 text col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        <p>Lorem ipsum dolor sit amet, 
-        consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-        commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-        <p>Lorem ipsum dolor sit amet, 
-        consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-        commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-        <p>Lorem ipsum dolor sit amet, 
-        <p>consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-        commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-    </div>
-    </div>
-</div>
-
-<div class="container-fluid row">
-    <div class ="text col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <h3>Otsikko</h3>
-        <p>Lorem ipsum dolor sit amet, 
-            consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-            commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-    </div>
-    <div class ="text col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <img src="images/textpicture2.jpg" alt="Kaktus valkoisella taustalla" class="textpicture1">
-    </div>
-    <div class ="text col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <h3>Otsikko</h3>
-        <p>Lorem ipsum dolor sit amet, 
-            consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-            commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-    </div>
 </div>
 
 <div class="container-fluid">
-    <footer class = "myFooter">
-        Venla Kuosmanen
-    </footer>
+    <div class="jumbotron second">
+        
+        <h1 class="display-4">Huonekasvit</h1>
+        <p class="lead">Huonekasvien esittely</p>
+        <p>Tällä sivulla on esitelty eri tyyppisiä huonekasveja. Huonekasvit on jaoteltu niiden piirteiden mukaan kukkiviin kasveihin 
+          ja viherkasveihin sekä millaisessa ympäristössä kasvit viihtyvät</p>
+    </div>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-6"><h3>Kukkivat kasvit</h3>
+    <p>Lorem ipsum dolor sit amet, 
+      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    </div>
+  <div class="col-sm-6"><h3>Viherkasvit</h3>
+    <p>Lorem ipsum dolor sit amet, 
+      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    </div>
+</div>
+<div class="row">
+  <div class="col-sm-6"><h3>Kuivassa viihtyvät kasvit</h3>
+    <p>Lorem ipsum dolor sit amet, 
+      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    </div>
+  <div class="col-sm-6"><h3>Kosteutta tarvitsevat kasvit</h3>
+    <p>Lorem ipsum dolor sit amet, 
+      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    </div>
+  </div>
+<div class="row">
+  <div class="col-sm-6"><h3>Valoa tarvitsevat kasvit</h3>
+    <p>Lorem ipsum dolor sit amet, 
+      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    </div>
+  <div class="col-sm-6"><h3>Pimeydessä viihtyvät kasvit</h3>
+    <p>Lorem ipsum dolor sit amet, 
+      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+      <p>Lorem ipsum dolor sit amet, 
+      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
+      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    </div>
+</div>
+</div>
+
+<div class="footer jumbotron text-center" style="margin-bottom:0">
+  Venla Kuosmanen
 </div>
 
 <!-- Not my own javascript -->   
