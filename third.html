@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
@@ -14,11 +14,16 @@
 
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg">
-<a class="navbar-default" href="Index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
+<nav class="navbar sticky-top navbar-expand-lg">
+  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarToggler">
+
+<a class="navbar-default" href="index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     <li class="nav-item">
-    <a class="nav-link" href="Index.html">Etusivu </a>
+    <a class="nav-link" href="index.html">Etusivu </a>
     </li>
     <li class="nav-item">
     <a class="nav-link" href="second.html">Huonekasvit</a>
@@ -27,68 +32,134 @@
     <a class="nav-link active" href="third.html">Huonekasvien hoidosta</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="fourth.html">Opi lisää: Under construction</a>
+    <a class="nav-link" href="fourth.html">Opi lisää</a>
     </li>
 </ul>
+<form class="form-inline">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn search my-2 my-sm-0" type="submit">Etsi</button>
+</form>
 </nav>
-
-
-<hr class ="viiva1">
-        
-  <div class="container-fluid">
-    <img src="images/Headerpicture.jpg" alt="Etusivun otsikkokuva" class="headerpicture">
   </div>
 
-<div class="container-fluid row">
-    <div class ="mt-2 text col-xs-2 col-sm-2 col-md-2 col-lg-2">
-      <h3>Opi Lisää</h3>  
-        <p>Lorem ipsum dolor sit amet, 
-        consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-        commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-    </div>
-    <div class ="mt-2 text col-xs-2 col-sm-2 col-md-2 col-lg-2">
-      <br><br>
-        <p>Lorem ipsum dolor sit amet, 
-        consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-        commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
-    </div>
-    <div class ="mt-2 text col-xs-2 col-sm-2 col-md-2 col-lg-2">
-      <br><br>
-        <p>Lorem ipsum dolor sit amet, 
-        consectetur <br>adipiscing elit. Nunc maximus, nulla ut <br>
-        commodo sagittis, sapien dui mattis dui,<br> non pulvinar lorem felis nec erat</p>
+<div class="container">
+<div class="carousel-settings">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/slideshowpicture1.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Kasvien hoito</h5>
+            <p>Huonekasvien oikea hoito on tärkeää. On hyvä selvittää ennen huonekasvin hankintaa, millaista hoitoa kyseinen kasvi vaatii.
+            </p>
+        </div>
+        </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/slideshowpicture2.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Kasvien hoito</h5>
+            <p>Joidenkin kasvien hoitaminen vaatii paljon työtä, jotta ne kukoistavat, kun taas toisille riittää satunnainen kastelu.</p>
+        </div>
+        </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/slideshowpicture3.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Kasvien hoito</h5>
+            <p>Myös asunnon olosuhteet voivat vaikuttaa huonekasvin selviytymiseen.</p>
+        </div>
+        </div>
     </div>
 
-  <div class ="mt-3 text col-xs-2 col-sm-2 col-md-2 col-lg-2">
-    <a href="https://fi.wikipedia.org/wiki/Huonekasvi">
-    <img src="images/tinypicture.png" alt="Piirretty huonekasvi, jossa linkki wikipedian huonekasvi -tietosivulle" class="textpicture1"></a>
-  </div>
-  <div class ="mt-3 text col-xs-2 col-sm-2 col-md-2 col-lg-2">
-    <a href="https://www.puutarhaliitto.fi/">
-    <img src="images/tinypicture2.png" alt="piirretty huonekasvi jossa linkki puutarhaliiton sivuille" class="textpicture1"></a>
-  </div>
-  <div class ="mt-3 text col-xs-2 col-sm-2 col-md-2 col-lg-2">
-    <a href="https://www.huonekasviseura.fi/">
-    <img src="images/tinypicture3.png" alt="piirretty huonekasvi, jossa linkki huonekasviseura ry:n sivuille" class="textpicture1"></a>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+</div>
+
+<div class="container">
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="images/kastelu.jpg" alt="Kastelukannu">
+      <div class="card-block">
+        <h4 class="card-title">Kastelu</h4>
+        <p class="card-text">
+          Kastelun määrä ja tapa riippuu muun muassa kasvin tyypistä, kasvu alustasta, huoneiston ilmankosteudesta ja vuodenajasta.
+          Runsaasti vettä tarvitseva kasvi:
+          Kastele heti, kun multa on kuivahtanut.
+          Anna vettä niin runsaasti, että juuripaakku kastuu läpikotaisin ja vettä valuu aluselle.
+          Tyhjennä aluslautanen noin puolen tunnin kuluttua.
+          Kohtuullisesta kastelusta pitävä kasvi:
+          Kastele, kun mullan pinta tuntuu kuivalta.
+          Anna vettä sen verran, että multa kostuu muttei tule märäksi.
+          Lopeta kastelu, kun vettä pisaroi aluselle.
+          Niukasta kastelusta pitävä kasvi:
+          Kastele vasta, kun yli puolet juuripaakusta on kuivunut.
+          Ruukun painosta voi päätellä kastelun tarpeen.
+          Vettä annetaan niin vähän, että se jää multapaakkuun.
+          Kastelun lisäksi huonekasvit pitävät vedellä suihkuttamisesta.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/multa.jpg" alt="Puutarhatyökalu ja multaa">
+      <div class="card-block">
+        <h4 class="card-title">Multa</h4>
+        <p class="card-text">
+          Mullan tärkeimmät ominaisuudet ovat:
+          ravinnesisältö, happamuus, vedensitomiskyky ja ilmavuus.
+          Kaikki myynnissä olevat mullat sisältävät tavallisesti riittävästi ravinteita kasvin alkutarpeiksi.
+          Myös pH-arvo eli happamuus on yleensä säädetty kalkituksella neutraaliksi ja useimmille kasveille 
+          sopivaksi, paitsi happaman maan kasveille tarkoitetuissa kasvualustoissa, joihin ei ole lisätty kalkkia. 
+          Jos maan happamuus on kasvin kannalta väärä, se ei pysty käyttämään hyväkseen ravinteita.  
+          Vedensitomiskyky ja ilmavuus puolestaan liittyvät toisiinsa. Mitä enemmän kasvualusta imee vettä, 
+          sitä harvemmin se kaipaa kastelua. On kuitenkin muistettava, että veden lisäksi juuret tarvitsevat myös happea. 
+          Paras kasvualusta ei siis välttämättä ole sellainen, joka imee eniten vettä. Turve ja savi sitovat vettä, hiekka ja muut karkeat aineet 
+          (esimerkiksi kevytsora ja styroxrouhe) puolestaan eivät. Etenkin ruukkukasvatuksessa mullan on hyvä sisältää myös vettä läpäiseviä, ilmavia aineksia.   </p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/valo.jpg" alt="Kuva niittyruohikosta">
+      <div class="card-block">
+        <h4 class="card-title">Valo</h4>
+        <p class="card-text">Valo on kasveille elinehto. Pimeinä talvipäivinä siitä on kuitenkin pulaa ja siksi kasvit voivat huonosti. Monta kertaa ongelmana on se, että kasvit ovat väärissä paikoissa.</p>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="container-fluid row">
-  <div class ="mt-2 text3 col-xs-5 col-sm-5 col-md-5 col-lg-5">
-    <h3>Ota yhteyttä</h3>  
-    <p>Yhteystiedot: <br>Laurea Ammattikorkeakoulu, <br> Vanha maantie 9,<br> 02650 Espoo</p>
-  </div>
-  <div class ="mt-7 map col-xs-7 col-sm-7 col-md-7 col-lg-7">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7925.845371082676!2d24.80243850262451!3d60.22274330619129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d5f1903758ff53d!2sLaurea-ammattikorkeakoulu%20-%20Lepp%C3%A4vaara!5e0!3m2!1sfi!2sfi!4v1605778713474!5m2!1sfi!2sfi" width="500" height="500" frameborder="1" style="border:1;" allowfullscreen="" aria-hidden="false" tabindex="0">
-    </iframe>
-    
+<div class="container">
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="images/ravinteet.jpg" alt="Kasveja kasvamassa">
+      <div class="card-block">
+        <h4 class="card-title">Ravinteet</h4>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/vuodenaika.jpg" alt="Puu eri vuodenaikoina">
+      <div class="card-block">
+        <h4 class="card-title">Vuodenajat</h4>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card">
+      <iframe width="" height="235" src="https://www.youtube.com/embed/lbYnRkoou1A" alt="Meilläkotona.fi tekemä video huonekasveista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="card-block">
+        <h4 class="card-title">Muuta</h4>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="container-fluid">
-    <footer class = "myFooter">
-      Venla Kuosmanen
-    </footer>
+<div class="footer jumbotron text-center" style="margin-bottom:0">
+  Venla Kuosmanen
 </div>
 
 <!-- Not my own javascript -->
