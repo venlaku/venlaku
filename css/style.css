@@ -1,16 +1,7 @@
 body {
     color: rgb(0,0,0);
-    background-color: rgb(224, 224, 224);
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgb(245, 245, 245);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-.header {
-    background:  rgb(236, 236, 238);
-    margin-top: 10px;
-    border: 1px solid rgb(0, 0, 0);
     }
 
 h1 {
@@ -40,6 +31,11 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h5 {
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
+
 p {
     color: rgb(6,6,21);
     font-size: 14px;
@@ -48,72 +44,26 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.text1.col-xs-4.col-sm-4.col-md-4.col-lg-4 {
-    border: 1px solid rgb(0, 0, 0);
-    padding-bottom: 50px;
-    background-color: rgb(140, 175, 148);
-    border-radius: 50%;
-}
-
-.headerpicture {
-    width: 100%;
-    margin-top: 80px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
-}
-
-.myFooter {
+.footer.jumbotron {
+    width:100%;
+    height: 20px;
     text-align: center;
     background:  rgb(236, 236, 238);
     color: rgb(6,6,21);
-    font-size: 12px;
+    font-size: 8px;
     border: 1px solid rgb(0, 0, 0);
     padding: 5px;
-    margin-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px;
 }
 
-.picture {
-    width: 100%;
-    border: 1px solid rgb(0, 0, 0);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.picture2 {
-    width: 200px;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.textpicture1 {
-    width: 80%;
-    margin: 5px;
-}
-
-.text.col-xs-4.col-sm-4.col-md-4.col-lg-4 {
-    border: 1px solid rgb(0, 0, 0);
-
-}
-
-.textMiddle.col-xs-3.col-sm-3.col-md-3.col-lg-3 {
-    border-right: 1px solid rgb(0, 0, 0);
-}
-
-.box {
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.text3.col-xs-5.col-sm-5.col-md-5.col-lg-5 {
-    border: 1px solid rgb(0, 0, 0);
-}
 .navbar {
     background: rgb(236, 236, 238);
     background-image: url("images/HomeHeaderpicture.jpg");
     border: 1px solid rgb(0, 0, 0);
     background-size: cover;
 }
+
 .nav-link.active {
     border: 1px solid rgb(32, 41, 33);
     background: rgb( 146, 146, 146);
@@ -136,11 +86,19 @@ p {
 
 .jumbotron {
     background: rgb(236, 236, 238);;
-    margin-top: 80px;
+    margin-top: 20px;
     background-image: url("images/slideshowpicture1.jpg");
     border-radius: 10px;
     border: 1px solid rgb(123, 131, 124);
     background-size: cover;
+}
+
+.jumbotron.second {
+    background: rgb(236, 236, 238);;
+    margin-top: 20px;
+    border: 1px solid rgb(123, 131, 124);
+    background-size: cover;
+    border-radius: 0px;
 }
 
 .navbar-default {
@@ -160,7 +118,17 @@ p {
 }
 
 .btn-default {
-    margin: 20px
+    margin: 10px;
+    float: right;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(105, 128, 105);
+    border-radius: 10px;
+    color: rgb(214, 214, 214);
+}
+
+.btn-default:hover {
+    background: rgb(112, 112, 112);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .btn-success {
@@ -181,12 +149,6 @@ ion-icon:hover {
     background: rgb(75, 75, 75);
 }
 
-.img-fluid {
-    max-width: 90%;
-    height: auto;
-    padding-left: 20px;
-}
-
 .btn.search {
     border: 1px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
@@ -196,4 +158,89 @@ ion-icon:hover {
 .btn.search:hover {
     background: rgb(0, 0, 0);
     color: rgb(214, 214, 214);
+}
+
+.card {
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 20px;
+
+}
+
+.card-title {
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.card-img-top {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.card-img-top:hover {
+    opacity: 0.5;
+}
+
+.carousel-settings {
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.carousel-settings:hover {
+    opacity: 0.5;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+#nav2 {
+    float: left;
+    height: 580px;
+    width: 7%;
+    margin: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0,0,0);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul#list li {
+    list-style-type: none;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#section {
+    margin-top:5%;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: rgb(0,0,0); 
+} 
+
+.custom-toggler.navbar-toggler:hover { 
+    border-color: rgb(56, 56, 56);
+    background-color: rgb(0,0,0); 
+} 
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(80, 80, 80, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
+
+.custom-toggler .navbar-toggler-icon:hover { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(200, 200, 200, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.row {
+    border: 3px double rgb(50, 50, 50);
+    margin-top: 20px;
+    background-color: rgb(187, 199, 186);
 }
