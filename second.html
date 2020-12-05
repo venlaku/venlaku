@@ -9,21 +9,24 @@
     crossorigin="anonymous">
     <!-- My own CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <title>INFO</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="images/faviconplant.png">
+    <title>HUONEKASVIT</title>
 </head>  
 
 <body>
-
+<header>
 <nav class="navbar sticky-top navbar-expand-lg">
 <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarToggler">
 
-<a class="navbar-default" href="index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
+<a class="navbar-default" href="Index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     <li class="nav-item">
-    <a class="nav-link" href="index.html">Etusivu </a>
+    <a class="nav-link" href="Index.html">Etusivu </a>
     </li>
     <li class="nav-item active">
     <a class="nav-link active" href="second.html">Huonekasvit</a>
@@ -41,8 +44,10 @@
   </form>
 </nav>
 </div>
+</header>
 
-<div class="container-fluid">
+
+<div class="container">
     <div class="jumbotron second">
         
         <h1 class="display-4">Huonekasvit</h1>
@@ -52,80 +57,73 @@
     </div>
 </div>
 
+
 <div class="container">
+<section>
 <div class="row">
   <div class="col-sm-6"><h3>Kukkivat kasvit</h3>
-    <p>Lorem ipsum dolor sit amet, 
-      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    <img class="row-image" src="images/kukkiva.jpg" alt="Orkkidean kukka">
+    <p class="card-text">Kukkivat huonekasvit tuovat väriä sisustukseen. 
+      Helposti kukkivia huonekasveja ovat esimerkiksi orkideat, kaktukset, atsaleat,
+      hortensiat.
+
+    </p>
     </div>
   <div class="col-sm-6"><h3>Viherkasvit</h3>
-    <p>Lorem ipsum dolor sit amet, 
-      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    <img class="row-image" src="images/textpicture2.jpg" alt="viherkasvi">
+    <p class="card-text">Kaikki kasvit tuottavat kukkia. Tähän olen koonnut kasveja, jotka
+      eivät yleensä kasvata kukkia huonekasvina ollessaan. Viherkasvit ovat siis nimensä mukaisesti
+      vihreitä kasveja. Tällaisia kasveja ovat esimerkiksi Traakkipuut ja Rahapuut.
+    </p>
     </div>
 </div>
 <div class="row">
   <div class="col-sm-6"><h3>Kuivassa viihtyvät kasvit</h3>
-    <p>Lorem ipsum dolor sit amet, 
-      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    <img class="row-image" src="images/textpicture1.jpg" alt="Mehiruusuke">
+    <p class="card-text">Oikea kastelun määrä on tärkeää, ja se riippuu suuresti kasvatettavasta kasvista. 
+      Mehikasvit vaativat vain vähän kastelua, sillä liikakastelulla ne alkavat mätänemään helposti. </p>
     </div>
   <div class="col-sm-6"><h3>Kosteutta tarvitsevat kasvit</h3>
-    <p>Lorem ipsum dolor sit amet, 
-      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    <img class="row-image" src="images/flytrap.jpg" alt="Kärpäsloukku lihansyöjäkasvi">
+    <p class="card-text">Jotkut kasvit tarvitsevat paljon vettä. Monet paljon vettä haihduttavat kasvit, 
+      kuten esimerkiksi saniaiset, puolestaan vaativat jatkuvaa kastelua ja kosteuttamista, sillä ne haihduttavat paljon vettä.
+    </p>
     </div>
   </div>
 <div class="row">
   <div class="col-sm-6"><h3>Valoa tarvitsevat kasvit</h3>
-    <p>Lorem ipsum dolor sit amet, 
-      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+    <img class="row-image" src="images/cactus.jpg" alt="Kaktus ruukussa">
+    <p class="card-text">Kaikki kasvit tarvitsevat auringon valoa. Osa kasveista tarvitsee sitä enemmän
+      kun jotkut selviävät myös varjoisissa paikoissa. Kaikki kasvit eivät myöskään pärjää suorassa
+      auringon paahteessa vaan tarvitsevat niin sanotun puolivarjoisen paikan kukoistaakseen.
+      Kasvien valovaatimusten ymmärtäminen on kaiken a ja o hyvinvoinnin ja menestymisen kannalta. 
+      Meidän on ehkä helpointa ymmärtää, että kaktukset kuuluvat auringonpalvojiin, ja jopa rakastavat 
+      paahdetta. Ne kasvavat yleensä paikoissa, joissa aurinko paistaa pilvettömältä taivaalta eikä 
+      ympärillä ole varjostavia ja runsaalta valolta suojaavia puita. 
+      Myös muut mehikasvit ovat valoa kaipaavia kasveja. Pääsääntöisesti mehikasvit ovat sopeutuneet 
+      sietämään kuivuutta, voimakasta ja suoraa valoa, joten kotiolosuhteissa ne voivat hyvin 
+      valoisien ikkunoiden äärellä, kuten etelä- ja länsi-ikkunoilla. 
+      Sen sijaan vähässä valossa ne saattavat kasvaa honteloiksi, valoa kohti kurotellen.</p>
     </div>
-  <div class="col-sm-6"><h3>Pimeydessä viihtyvät kasvit</h3>
-    <p>Lorem ipsum dolor sit amet, 
-      consectetur <br>adipiscing elit. Nunc maximus, nulla ut
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
-      <p>Lorem ipsum dolor sit amet, 
-      <p>consectetur adipiscing elit. Nunc maximus, nulla ut 
-      commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+  <div class="col-sm-6"><h3>Vähällä valolla pärjäävät kasvit</h3>
+    <img class="row-image" src="images/pimeätkasvit.jpg" alt="Vehka varjossa">
+    <p class="card-text">Trooppisten metsien aluskasvillisuutena kasvavat kasvilajit ovat sopeutuneet vähään valoon, 
+      jolloin voimme sijoittaa tällaiset viherkasvit kotonakin vähäisen valon paikalle. 
+      Varjossa viihtyvät mm. monet saniaiset, matit ja maijat, jotka kasvavat trooppisten 
+      metsien aluskasvillisuutena, jolloin ne saavat vain vähän puiden latvusten välistä 
+      siivilöityvää valoa. Kaikki kasvit tarvitsevat kuitenkin luonnonvaloa tai kasvilampun 
+      tuomaa valoa, mutta parhaiten pimeissä tiloissa selviää palmuvehka.
+      Etenkin Suomen pimeinä kuukausina huonekasveina pärjäävät parhaiten huonekasvit, 
+      jotka eivät tarvitse paljon valoa voidakseen hyvin. Tällaisia kasveja ovat muun muassa:
+      kirjorönsylilja (Chlorophytum comosum ’Variegatum’)
+      muratti (Hedera helix)
+      kilpipiilea (Pilea peperomioides)
+      herttaköynnösvehka (Philodendron scandens)
+      komeaviirivehka (Spathiphyllum Floribundum-ryhmä)</p>
     </div>
 </div>
 </div>
+</section>
 
 <div class="footer jumbotron text-center" style="margin-bottom:0">
   Venla Kuosmanen
