@@ -9,21 +9,24 @@
     crossorigin="anonymous">
     <!-- My own CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <title>MORE</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="images/faviconplant.png">
+    <title>HOITO</title>
   </head>  
 
 <body>
-
+<header>
 <nav class="navbar sticky-top navbar-expand-lg">
   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarToggler">
 
-<a class="navbar-default" href="index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
+<a class="navbar-default" href="Index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     <li class="nav-item">
-    <a class="nav-link" href="index.html">Etusivu </a>
+    <a class="nav-link" href="Index.html">Etusivu </a>
     </li>
     <li class="nav-item">
     <a class="nav-link" href="second.html">Huonekasvit</a>
@@ -41,6 +44,7 @@
 </form>
 </nav>
   </div>
+</header>
 
 <div class="container">
 <div class="carousel-settings">
@@ -90,15 +94,15 @@
         <h4 class="card-title">Kastelu</h4>
         <p class="card-text">
           Kastelun määrä ja tapa riippuu muun muassa kasvin tyypistä, kasvu alustasta, huoneiston ilmankosteudesta ja vuodenajasta.
-          Runsaasti vettä tarvitseva kasvi:
+          <br><br>Runsaasti vettä tarvitseva kasvi:
           Kastele heti, kun multa on kuivahtanut.
           Anna vettä niin runsaasti, että juuripaakku kastuu läpikotaisin ja vettä valuu aluselle.
-          Tyhjennä aluslautanen noin puolen tunnin kuluttua.
+          Tyhjennä aluslautanen noin puolen tunnin kuluttua.<br><br>
           Kohtuullisesta kastelusta pitävä kasvi:
           Kastele, kun mullan pinta tuntuu kuivalta.
           Anna vettä sen verran, että multa kostuu muttei tule märäksi.
           Lopeta kastelu, kun vettä pisaroi aluselle.
-          Niukasta kastelusta pitävä kasvi:
+          <br><br>Niukasta kastelusta pitävä kasvi:
           Kastele vasta, kun yli puolet juuripaakusta on kuivunut.
           Ruukun painosta voi päätellä kastelun tarpeen.
           Vettä annetaan niin vähän, että se jää multapaakkuun.
@@ -108,14 +112,14 @@
     <div class="card">
       <img class="card-img-top" src="images/multa.jpg" alt="Puutarhatyökalu ja multaa">
       <div class="card-block">
-        <h4 class="card-title">Multa</h4>
+        <h4 class="card-title">Kasvualusta</h4>
         <p class="card-text">
-          Mullan tärkeimmät ominaisuudet ovat:
+          Kasvualustan tärkeimmät ominaisuudet ovat:
           ravinnesisältö, happamuus, vedensitomiskyky ja ilmavuus.
           Kaikki myynnissä olevat mullat sisältävät tavallisesti riittävästi ravinteita kasvin alkutarpeiksi.
           Myös pH-arvo eli happamuus on yleensä säädetty kalkituksella neutraaliksi ja useimmille kasveille 
           sopivaksi, paitsi happaman maan kasveille tarkoitetuissa kasvualustoissa, joihin ei ole lisätty kalkkia. 
-          Jos maan happamuus on kasvin kannalta väärä, se ei pysty käyttämään hyväkseen ravinteita.  
+          Jos maan happamuus on kasvin kannalta väärä, se ei pysty käyttämään hyväkseen ravinteita.<br><br>  
           Vedensitomiskyky ja ilmavuus puolestaan liittyvät toisiinsa. Mitä enemmän kasvualusta imee vettä, 
           sitä harvemmin se kaipaa kastelua. On kuitenkin muistettava, että veden lisäksi juuret tarvitsevat myös happea. 
           Paras kasvualusta ei siis välttämättä ole sellainen, joka imee eniten vettä. Turve ja savi sitovat vettä, hiekka ja muut karkeat aineet 
@@ -126,7 +130,10 @@
       <img class="card-img-top" src="images/valo.jpg" alt="Kuva niittyruohikosta">
       <div class="card-block">
         <h4 class="card-title">Valo</h4>
-        <p class="card-text">Valo on kasveille elinehto. Pimeinä talvipäivinä siitä on kuitenkin pulaa ja siksi kasvit voivat huonosti. Monta kertaa ongelmana on se, että kasvit ovat väärissä paikoissa.</p>
+        <p class="card-text">Valo on kasveille elinehto. Pimeinä talvipäivinä siitä on kuitenkin pulaa ja siksi kasvit voivat huonosti. 
+          Monta kertaa kasvien kuihtumisen ongelmana on se, että kasvit ovat väärissä paikoissa.
+          Erityyppiset kasvit tarvitsevat valoa eritavoin. Jotkut kasvit selviävät vain suorassa auringon paisteessa, kun taas toiset tarvitsevat
+          varjoisammat olosuhteet tai jopa pimeyttä.</p>
       </div>
     </div>
   </div>
@@ -138,21 +145,40 @@
       <img class="card-img-top" src="images/ravinteet.jpg" alt="Kasveja kasvamassa">
       <div class="card-block">
         <h4 class="card-title">Ravinteet</h4>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Ilman ravinteita kasvien yhteyttäminen ja kasvaminen olisi mahdotonta. 
+          Lannoituksen tarkoitus onkin, että kasveilla on riittävästi ja tasapainoisesti rakennusaineita 
+          yhteyttämiskoneistonsa rakentamiseen ja ylläpitoon. 
+          Lannoituksen hyöty saadaan täysipainoisen fotosynteesin kautta suurempana satona ja 
+          parempana laatuna. <br><br> Kasvit tarvitsevat 16 eri ravinnetta. Hiiltä, vetyä ja happea kasvi saa 
+          ilmakehästä. Muut ravinteet kasvi ottaa maasta. Ravinteet voidaan luokitella pää-, sivu- ja 
+          hivenravinteiksi perustuen niiden määrälliseen tarpeeseen. Pääravinteiden (N, P, K) ja 
+          sivuravinteiden (Ca, Mg, S) tarve lasketaan peltoviljelyssä kiloina hehtaaria kohden, 
+          hivenravinteiden (Fe, Mn, Zn, Cu, B, Cl, Mo) tarve on satoja grammoja tai grammoja hehtaaria kohden.</p>
       </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="images/vuodenaika.jpg" alt="Puu eri vuodenaikoina">
       <div class="card-block">
         <h4 class="card-title">Vuodenajat</h4>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">Vuodenajoilla on vaikutusta siihen, millaista hoitoa huonekasvit tarvitsevat.
+          Kasvin vuosi jakautuu karkeasti neljään osaan: Kasvukauden alku(kevät), 
+          kasvukausi (kesä), valmistautuminen talvilepoon (syksy) ja talvilepo (talvi). <br><br>
+          Kasvukauden alussa olisi hyvä tehdä kasvukautta valmistelevat työt, jotta kasvi saa parhaat mahdolliset eväät 
+          kasvuun kesän ajan. Kevään huonekasvitöihin kuuluu: mullanvaihto, ruukunvaihto, leikkaus ja lannoituksen aloittaminen.
+          Kasvukauden aikana lannoitusta jatketaan ja muistetaan riittävä kastelu.
+          Syksyn tullessa kastelua ja lannoitusta tulee vähentää. Talvella kastelu on niukkaa ottaen kuitenkin huomioon
+          kasvin tarpeet. Talvisin on myös hyvä huomioida riittävä ilmankosteus.
+        </p>
       </div>
     </div>
     <div class="card">
       <iframe width="" height="235" src="https://www.youtube.com/embed/lbYnRkoou1A" alt="Meilläkotona.fi tekemä video huonekasveista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="card-block">
         <h4 class="card-title">Muuta</h4>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"> Kun kasveja hoitaa hyvin, on niistä myös hyötyä ihmisille. Kasvit puhdistavat sisäilmaa ja 
+          raikastavat kodin ilmettä sisustuselementteinä. Kasvit myös lisäävät sisätilojen happipitoisuutta ja nostavat etenkin talvisin
+          ilmankosteutta. Voit katsoa yläpuolella olevan Meillä Kotona videon huonekasveista.
+        </p>
       </div>
     </div>
   </div>
