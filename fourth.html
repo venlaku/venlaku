@@ -9,21 +9,24 @@
     crossorigin="anonymous">
     <!-- My own CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <title>INFO</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="images/faviconplant.png">
+    <title>OPI LISÄÄ</title>
 </head>  
 
 <body>
-
+<header>
 <nav class="navbar sticky-top navbar-expand-lg">
   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarToggler">
 
-<a class="navbar-default" href="index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
+<a class="navbar-default" href="Index.html"><ion-icon name="leaf-outline" alt="This is leaf icon"></ion-icon></a>
 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     <li class="nav-item">
-    <a class="nav-link" href="index.html">Etusivu </a>
+    <a class="nav-link" href="Index.html">Etusivu </a>
     </li>
     <li class="nav-item">
     <a class="nav-link" href="second.html">Huonekasvit</a>
@@ -42,26 +45,41 @@
 </nav>
 </div>
 
-<aside>
-<div id="nav2">
+</header>
+
+<div class="container-fluid row fourth">
+<div id="sidenav">
+  <h4>Hyödyllisiä linkkejä</h4>
     <ul id="list">
-    <li><a href="https://www.puutarhaliitto.fi/" target="_blank">Puutarhaliitto</a></li>
-    <li><a href="https://www.huonekasviseura.fi/">Huonekasviseura</a></li>
+    <li class="sidenav-list"><a class="sidenav-link" href="https://www.puutarhaliitto.fi/" target="_blank">Puutarhaliitto</a></li>
+    <li class="sidenav-list"><a class="sidenav-link" href="https://www.huonekasviseura.fi/" target="_blank">Huonekasviseura</a></li>
     </ul>
-  </aside>
+    <h4>Facebook ryhmiä</h4>
+    <ul id="list">
+      <li class="sidenav-list"><a class="sidenav-link" href="https://www.facebook.com/groups/huonekasvit" target="_blank">Huonekasvit</a></li>
+      <li class="sidenav-list"><a class="sidenav-link" href="https://www.facebook.com/huonekasviseurary/" target="_blank">Huonekasviseuran fb</a></li>
+      <li class="sidenav-list"><a class="sidenav-link" href="https://www.facebook.com/groups/Viherkasvit" target="_blank">Huonekasvit ja hoito</a></li>
+      </ul>
+      <h4>Osta huonekasveja</h4>
+      <ul id="list">
+        <li class="sidenav-list"><a class="sidenav-link" href="https://www.plantagen.fi/viherkasvit/" target="_blank">Plantagen</a></li>
+        <li class="sidenav-list"><a class="sidenav-link" href="https://www.viherkasvit.net/" target="_blank">Viherkasvit.net</a></li>
+        <li class="sidenav-list"><a class="sidenav-link" href="https://urbanroots.fi/" target="_blank">Urban roots</a></li>
+        </ul>
 </div>
 
-<div class="container row"> 
+<div class="article">
+  <p id="infotext">Tältä sivulta löydät paljon hyödyllisiä linkkejä huonekasveihin liittyen <br>
+    Voit myös tilata uutiskirjeen alapuolelta (Huom! Uutikirje ei ole juuri nyt käytettävissä)</p>
+  <h6>Tilaa uutiskirje täyttämällä tiedot</h6>
       <form>
         <label for="fname">Etunimi:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" required><br>
         <label for="lname">Sukunimi:</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <input type="text" id="lname" name="lname" required><br>
         <label for="email">Sähköposti:</label><br>
-        <input type="text" id="email" name="email"><br>
-        <input type="checkbox" id="Agreement" name="Agreement" value="Agree">
-        <label for="Agreement"> Haluan uutiskirjeen sähköpostiini heti kun se julkaistaan</label><br>
-        <input type="checkbox" id="Agreement" name="Agreement" value="Agree">
+        <input type="text" id="email" name="email" required><br>
+        <input type="checkbox" id="Agreement" name="Agreement" value="Agree" required>
         <label for="Agreement"> Haluan uutiskirjeet sähköpostiini viikottain</label><br>
         <input type="submit" value="Tilaa uutiskirje">
       </form>
