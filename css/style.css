@@ -31,9 +31,26 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h4 {
+    font-size:14px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(134, 134, 134);
+}
+
 h5 {
     color:rgb(0, 0, 0);
     font-size: 30px;
+    padding-bottom: 20px;
+}
+
+h6 {
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    padding-bottom: 20px;
+
 }
 
 p {
@@ -55,11 +72,12 @@ p {
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 0px;
+    margin-top: 50px;
 }
 
 .navbar {
     background: rgb(236, 236, 238);
-    background-image: url("HomeHeaderpicture.jpg");
+    background-image: url("images/HomeHeaderpicture.jpg");
     border: 1px solid rgb(0, 0, 0);
     background-size: cover;
 }
@@ -84,21 +102,22 @@ p {
     padding-left: 20px;
 }
 
-.jumbotron {
+.jumbotron.index {
     background: rgb(236, 236, 238);;
     margin-top: 20px;
-    background-image: url("slideshowpicture1.jpg");
+    background-image: url("images/slideshowpicture1.jpg");
     border-radius: 10px;
     border: 1px solid rgb(123, 131, 124);
     background-size: cover;
 }
 
 .jumbotron.second {
-    background: rgb(236, 236, 238);;
+    background-color: rgb(187, 199, 186);
     margin-top: 20px;
     border: 1px solid rgb(123, 131, 124);
     background-size: cover;
     border-radius: 0px;
+    
 }
 
 .navbar-default {
@@ -163,7 +182,11 @@ ion-icon:hover {
 .card {
     border: 1px solid rgb(0, 0, 0);
     margin-top: 20px;
+}
 
+.card-text {
+    padding: 15px;
+    text-align: justify ;
 }
 
 .card-title {
@@ -195,18 +218,44 @@ ion-icon:hover {
     color: rgb(0, 0, 0);
 }
 
-#nav2 {
-    float: left;
-    height: 580px;
-    width: 7%;
-    margin: 50px;
-    padding-right: 10px;
-    padding-top: 10px;
+#sidenav {
+    height: 100%;
+    padding-top: 20px;
     padding-bottom: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    color: rgb(0,0,0);
+    width: 280px;
+    border-right: 1px solid rgb(155, 155, 155);
+    border-bottom: 1px solid rgb(155, 155, 155);
+    border-left: 1px solid rgb(155, 155, 155);
+    margin-left: 50px;
+}
+
+.sidenav-link {
+    color: rgb(100,100,100);
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.sidenav-list {
+    color: rgb(100,100,100);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.sidenav-link:hover {
+    color: rgb(0,0,0);
+    background-color: rgb(200, 200, 200);
+    padding-left: 5px;
+    transition: 1s;
+}
+
+.sidenav-list:hover {
+    color: rgb(0,0,0);
+    background-color: rgb(200, 200, 200);
+    padding-left: 5px;
+    border-right: 3px solid rgb(42, 80, 47);
+    transition: 1s;
 }
 
 ul#list li {
@@ -214,10 +263,16 @@ ul#list li {
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
 
-#section {
-    margin-top:5%;
+section {
+    background-color: rgba(208, 221, 208, 0.699);
+
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(163, 163, 163);
 }
 
 .custom-toggler.navbar-toggler { 
@@ -243,4 +298,52 @@ ul#list li {
     border: 3px double rgb(50, 50, 50);
     margin-top: 20px;
     background-color: rgb(187, 199, 186);
+    padding: 20px;
+}
+
+.row:hover {
+    background-color: rgb(208, 223, 207);
+    transition: 1s;
+}
+
+.row.fourth {
+    border: none;
+    margin-top: 0px;
+    background-color: rgb(245, 245, 245);
+    padding: 0px;
+}
+
+
+.article {
+    background-image: url("images/slideshowpicture1.jpg");
+    background-color: rgb(220, 220, 220);
+    background-size: cover;
+    padding: 50px;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 3px double rgb(50, 50, 50);
+}
+
+
+.row-image {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    box-shadow: 2px 2px rgb(122, 122, 122);
+}
+
+.row-image:hover {
+    width: 22%;
+    transition: 1s;
+}
+
+input[type=text]:focus {
+    background-color: rgb(197, 199, 198);
+}
+#infotext {
+    text-align: left;
 }
